@@ -5,5 +5,5 @@ int reverse(int x) {
           res=res*10+x%10;
             x/=10;
         }
-        return (res>INT_MIN && res<INT_MAX)?res:0;
+        return (res>INT_MIN && res<INT_MAX)?res:0;   // Just check whether it lies in the range
     }
